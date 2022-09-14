@@ -36,7 +36,7 @@ const fields = [
     {
         component: "text",
         label:"First Name",
-        type: "text",
+        type: "radio",
         _uid:'6'    
     },
 ]

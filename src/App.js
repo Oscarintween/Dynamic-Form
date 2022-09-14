@@ -34,7 +34,7 @@ function App() {
         {inputFields && inputFields.map((input,index) =>{
           return(
             <div className='rendered-form-container' key={index}>
-              <div>
+              <div>              
                 <form> 
                   <label htmlFor={input.name}>
                     {input.label}
@@ -65,7 +65,6 @@ function App() {
               <option value="3"> Email </option>
               <option value="4">Password</option>
               <option value="5">Gender</option>
-              <option value="6">Goldfish</option>
           </select>
 
         </div>
